@@ -1,9 +1,9 @@
-name: Simply Grey
+name: Innovation
 markdown: redcarpet
 highlighter: pygments
-github: https://www.github.com/liamsymonds
-about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
+github: https://godka.github.io
+about: A Blog Created By Godka
 urls:
     - text: github
-      url: https://github.com/liamsymonds
-baseurl: '/simplygrey-jekyll'
+      url: https://godka.github.io
+baseurl: ''
