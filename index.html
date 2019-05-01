@@ -1,12 +1,164 @@
----
-layout: default
----
+<!DOCTYPE html>
+<style type="text/css">
+	body {
+		font-size: 12pt
+	}
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+	th {
+		font-size: 12pt
+	}
+
+	td {
+		font-size: 12pt
+	}
+</style>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="en, zh">
+	<meta name="description" content="Tianchi Huang's Homepage: Master student at Tsinghua University">
+	<title> Tianchi Huang's Homepage</title>
+</head>
+
+<body style="font-family:sans-serif;">
+	<div style="width: 50%; margin-left: 20%; margin-right: 15%; margin-top: 1%; margin-bottom: 1%; padding: 5%; line-height:150%;">
+		<table width="100%">
+			<tr>
+				<td width="60%">
+					<img style="height: 60%" src="img.jpg" alt="img" title="Tianchi Huang" /--> </td> <td width="80%">
+					<h1> <span> Tianchi Huang </span> </h1>
+					<br>Ph.D. candidate<br>
+					<a href="http://thu.media">Lab of Multimedia and Networking</a><br>
+					<a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and Technology</a><br>
+					<a href="http://www.tsinghua.edu.cn/">Tsinghua University<br></a>
+					<br>Room 1-512, Building FIT<br>
+					Tsinghua University, Beijing 100084, China<br>
+					<br>Email: <a href="mailto:htc17@mails.tsinghua.edu.cn">htc17@mails.tsinghua.edu.cn</a><br>
+				</td>
+			</tr>
+		</table>
+		<div>
+
+
+
+			<p>
+				<h2> About Me </h2>
+				<hr />
+				Currently I am a master student in the <a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and
+					Technology</a> at <a href="http://www.tsinghua.edu.cn/">Tsinghua University</a>, advised by <a href="http://media.cs.tsinghua.edu.cn/en/sunlf">Prof.
+					Lifeng Sun </a>. I received my master degree from <a href="http://cs.gzu.edu.cn">Department of Computer Science
+					and Technology</a> at <a href="http://www.gzu.edu.cn">Guizhou University</a> in 2018. My research work focuses on
+				the multimedia network streaming, including transmitting streams, overlay path construction and edge-assisted
+				content delivery.
+
+				<p>
+					<h2> Publications </h2>
+					<hr />
+
+					<!-- <h4> Journal Articles </h4> -->
+					<!-- <ul>
+				<p>
+					<li><a href="http://ieeexplore.ieee.org/document/7882628/">Towards Wi-Fi AP-Assisted Content Prefetching for On-Demand TV Series: A Learning-based Approach</a><br>
+					<b>Tianchi Huang</b>, Yichao Jin, Yonggang Wen, Zhi Wang and Lifeng Sun <br>
+					<a href="http://tcsvt.polito.it/">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</a>, 2017. <br>
+					</li>
+				</p>
+				<p>
+					<li><a href="http://ieeexplore.ieee.org/document/7948965/">Beyond 1 Million Nodes—Crowdsourced Video CDN: Architecture, Technology and Economy</a><br>
+					Lifeng Sun, Ming Ma, <b>Tianchi Huang</b>, Haitian Pang and Zhi Wang <br>
+					<a href="https://www.computer.org/multimedia-magazine/">IEEE Multimedia Magazine</a>, 2017. <br>
+					</li>
+				</p>
+				<p>
+					<li><a href="http://link.springer.com/article/10.1007/s11390-016-1683-x">Edge Video CDN: A Wi-Fi Content Hotspot Solution</a><br>
+					<b>Tianchi Huang</b>, Zhi Wang, Ming Ma and Lifeng Sun <br>
+					<a href="http://jcst.ict.ac.cn:8080/jcst/EN/volumn/home.shtml">Journal of Computer Science and Technology (JCST)</a>, vol. 31, no. 6, pp. 1072--1086, November 2016. <br>
+					</li>
+				</p>
+
+			</ul> -->
+					<h4> Conference Papers </h4>
+					<ul>
+						<p>
+							<li><a href="#">Towards Faster and Better Federated Learning: A Feature Fusion Approach</a><br>
+								Xin Yao, <b>Tianchi Huang</b>, Chenglei Wu, Ruixiao Zhang, Lifeng Sun <br>
+								ICIP 2019.<br>
+							</li>
+						</p>
+						<p>
+							<li><a href="#">Enhancing the Crowdsourced Live Streaming: a Deep
+									Reinforcement Learning Approach</a><br>
+								Rui-Xiao Zhang, <b>Tianchi Huang</b>, Ming Ma, Haitian Pang, Chenglei Wu, Xin Yao, Lifeng Sun <br>
+								NOSSDAV 2019.<br>
+							</li>
+						</p>
+						<p>
+							<li><a href="#">Towards QoS-Aware Cloud Live Transcoding: A Deep Reinforcement Learning Approach</a><br>
+								Zhengyuan Pang, Lifeng Sun, <b>Tianchi Huang</b>, Zhi Wang, Shiqiang Yang <br>
+								ICME 2019.<br>
+							</li>
+						</p>
+						<p>
+							<li><a href="ICME19-Tiyuntsong.pdf">Tiyuntsong: A Self-Play Reinforcement Learning
+									Approach for ABR Video Streaming</a><br>
+								<b>Tianchi Huang</b>, Xin Yao, Chenglei Wu, Rui-Xiao Zhang, Zhengyuan Pang, Lifeng Sun <br>
+								ICME 2019.<br>
+							</li>
+						</p>
+						<p>
+							<li><a href="mm18-qarc.pdf">QARC: Video Quality Aware Rate Control for Real-Time
+									Video Streaming based on Deep Reinforcement Learning</a><br>
+								<b>Tianchi Huang</b>, Rui-Xiao Zhang, Chao Zhou, Lifeng Sun <br>
+								ACM Multimedia 2018.<br>
+							</li>
+						</p>
+						<p>
+							<li><a href="nossdav18-delay-constrained.pdf">Delay-Constrained Rate Control for Real-Time Video
+									Streaming with Bounded Neural Network</a><br>
+								<b>Tianchi Huang</b>, Rui-Xiao Zhang, Chao Zhou, Lifeng Sun <br>
+								NOSSDAV 2018.<br>
+							</li>
+						</p>
+
+					</ul>
+				</p>
+
+
+				<!-- <p>
+			<h2> Awards </h2>
+			<hr />
+			<ul>
+				<li>Outstanding PhD Graduate Award, Department of Computer Science and Technology, Tsinghua University, 2017.</li>
+				<li>Sohu Scholarship, Tsinghua University, 2016.</li>
+				<li>First Class Guanghua Scholarship, Tsinghua University, 2015.</li>
+				<li>Outstanding Graduate Award, Xidian University, 2012.</li>
+				<li>National Scholarship, 2009, 2011.</li>
+				<li>Third Prize in the National Undergraduate Electronic Design Contest, 2011.</li>
+			</ul>
+		</p>
+
+		<p>
+			<h2> Teaching </h2>
+			<hr />
+			<ul>
+				<li>TA for Streaming Media Technology, Tsinghua University, Fall 2016.</li>
+				<li>TA for Streaming Media Technology, Tsinghua University, Fall 2015.</li>
+				<li>TA for Streaming Media Technology, Tsinghua University, Fall 2014.</li>
+			</ul>
+		</p>
+
+		<p>
+			<h2> Community Services </h2>
+			<hr />
+			<ul>
+				<li>Reviewer for: IEEE Transactions on Multimedia (TMM), IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), IEEE Journal on Selected Areas in Communications (JSAC), ACM Transactions on Intelligent Systems and Technology (TIST), China Communications.</li>
+			</ul>
+		</p> -->
+
+
+				<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=nJI5&d=2H0OQ02d8uBJIg9VnkGuUqMj1MjqZWK_EiTLVUYhoaY"></script>
+
+</body>
+
+</html>

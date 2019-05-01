@@ -1,9 +1,0 @@
-name: Innovation
-markdown: redcarpet
-highlighter: pygments
-github: https://godka.github.io
-about: A Blog Created By Godka
-urls:
-    - text: github
-      url: https://godka.github.io
-baseurl: ''
