@@ -39,10 +39,15 @@
 					<img width="90%" src="img.JPG" alt="img" title="Lianchen Jia" /--> </td> <td width="90%">
 					<h1> <span> Lianchen Jia </span> </h1>
 					<br>Ph.D<br>
-					<a href="https://www.jdcloud.com/">JD Cloud</a> IaaS Department<br>
-					
+					<a href="http://thu.media">Lab of Multimedia and Networking</a><br>
+					<a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and Technology</a><br>
+					<a href="http://www.tsinghua.edu.cn/">Tsinghua University<br></a>
+					<br>Room 1-512, Building FIT<br>
+					Tsinghua University, Beijing 100084, China<br>
 					<br>Email: <a href="mailto:jialianchen98@gmail.com">jialianchen98@gmail.com</a>
-					
+					<br>Expected graduation year: 2025.12<br>
+					<br>
+					<b>This year, I am actively seeking opportunities in the job market.</b> <br>
 				</td>
 			</tr>
 		</table>
@@ -53,17 +58,16 @@
 			<p>
 				<h2> About Me </h2>
 				<hr />
-				Currently, I work at JD.com AI Infra team through <a href="https://campus.jd.com/home#/talentProject?tabKey=3">TGT program</a>, focusing on LLM inference engines and cloud-native inference system scheduling.
-				I received my Ph.D. degree in December 2025 from the <a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and
-					Technology</a> at <a href="http://www.tsinghua.edu.cn/">Tsinghua University</a>, advised by <a href="https://www.cs.tsinghua.edu.cn/csen/info/1306/4333.htm">Prof.
+				I received my bachelor degree from <a href="http://cstc.hrbeu.edu.cn/">Department of Computer Science
+						and Technology</a> at <a href="http://www.hrbeu.edu.cn">Harbin Engineering University</a> in 2021. I received my Ph.D. degree from the <a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and
+					Technology</a> at <a href="http://www.tsinghua.edu.cn/">Tsinghua University</a> in December 2025, advised by <a href="https://www.cs.tsinghua.edu.cn/csen/info/1306/4333.htm">Prof.
 					Lifeng Sun </a>. I received my bachelor degree from <a href="http://cstc.hrbeu.edu.cn/">Department of Computer Science
-					and Technology</a> at <a href="http://www.hrbeu.edu.cn">Harbin Engineering University</a> in 2021. 
-
-				<br><br>
-				<b>We have ample HC for both full-time and intern positions. If you are interested, please feel free to contact me via email.</b>
-				<br>
-				<b>团队正式员工和实习生HC充足，如有兴趣欢迎邮件联系我。</b>
+					and Technology</a> at <a href="http://www.hrbeu.edu.cn">Harbin Engineering University</a> in 2021. I joined the AI Infra team at <a href="https://campus.jd.com/home#/talentProject?tabKey=3">JD.com</a> through the TGT program, working on LLM inference engines and cloud-native inference system scheduling. I joined the AI Infra team at <a href="https://campus.jd.com/home#/talentProject?tabKey=3">JD.com</a> through the TGT program, working on LLM inference engines and cloud-native inference system scheduling.
+					<br><br>
+					<b>Our team currently has ample headcount for both full-time employees and interns. Feel free to contact me via email for opportunities. / 我们团队目前正式员工和实习生的HC充足，欢迎联系我的邮箱。</b>
+								
 			</p>
+			<p>
 				<h2> Publications </h2>
 				<hr />
 
@@ -116,18 +120,6 @@
 						</li>
 					</p>
 					<p>
-						<li><a href="#">Decoupling Defense Strategies for Robust Image Watermarking</a><br>
-							Jiahui Chen, Zehang Deng, Zeyu Zhang, Chaoyang Li, <b>Lianchen Jia</b>, Lifeng Sun <br>
-							CVPR 2026. <br>
-						</li>
-					</p>
-					<p>
-						<li><a href="#">HiVid: LLM-Guided Video Saliency For Content-Aware VOD And Live Streaming</a><br>
-							Jiahui Chen, Bo Peng, <b>Lianchen Jia</b>, Zeyu Zhang, Tianchi Huang, Lifeng Sun <br>
-							ICLR 2026. <br>
-						</li>
-					</p>
-					<p>
 						<li><a href="#">Concerto: Client-server Orchestration for Real-Time Video Analytics</a><br>
 							Chaoyang Li, Rui-Xiao Zhang, Tianchi Huang, <b>Lianchen Jia</b>, Lifeng Sun <br>
 							ACM Multimedia 2023 <br>
@@ -149,7 +141,6 @@
 				<h2> Honors</h2>
 				<hr />
 				<ul>
-					<li>Beijing Outstanding Graduates, 2025</li>
 					<li>National Scholarship~(top 1%), 2019</li>
 					<li>Outstanding Graduates~(top 2%) 2021</li>
 					<li>Bronze Medal*2, ACM-ICPC Asia Regional Contest, 2019</li>
